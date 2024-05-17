@@ -8,7 +8,7 @@
 #' @examples hist_col(data.frame(x=c(1, 3, 2, 4, 6),y=c("A", "B", "C", "D", "E"),z=c(3, 4, 11, 15, 12)),F)
 hist_col <- function(x,y){
 
-nam  for (i in 1:dim(x)[2]) {
+for (i in 1:dim(x)[2]) {
     if(is.numeric(x[ , i])){
 
       if(y == T){
